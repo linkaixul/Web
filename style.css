@@ -13,6 +13,7 @@
 	text-align: right;
 	font:14px Arial;
 	padding-right: 34%;
+	border: #ffffff;
 }
 #header .wrapper{
 	display: flex;
