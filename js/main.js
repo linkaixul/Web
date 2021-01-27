@@ -130,7 +130,7 @@ $(document).keydown(function(event){
 			if(canMoveL(num)){
 				moveLeft();
 				setTimeout(generateNumber,400);
-				setTimeout(isGameOver,800);
+				setTimeout(isGameOver,1000);
 				//generateNumber();
 			}
 			break;
@@ -138,7 +138,7 @@ $(document).keydown(function(event){
 			if(canMoveUp(num)){
 				moveUp();
 				setTimeout(generateNumber,400);
-				setTimeout(isGameOver,800);
+				setTimeout(isGameOver,1000);
 			}
 
 			break;
@@ -146,7 +146,7 @@ $(document).keydown(function(event){
 			if(canMoveR(num)){
 				moveRight();
 				setTimeout(generateNumber,400);
-				setTimeout(isGameOver,800);
+				setTimeout(isGameOver,1000);
 			}
 
 			break;
@@ -154,7 +154,7 @@ $(document).keydown(function(event){
 			if(canMoveD(num)){
 				moveDown();
 				setTimeout(generateNumber,400);
-				setTimeout(isGameOver,800);
+				setTimeout(isGameOver,1000);
 			}
 
 			break;
